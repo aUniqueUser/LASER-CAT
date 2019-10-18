@@ -384,6 +384,8 @@ LaserCat.prototype.animate = function() {
         this.laserGain += (0.0 - this.laserGain) * 0.1;
         this.alpha += (0 - this.alpha) * 0.3;
       }
+	  
+	  var i = 0;
 
       for(var i = 0; i < 3; i++) {
         
@@ -408,11 +410,9 @@ LaserCat.prototype.animate = function() {
         ctx.lineTo(this.target.x + Math.random() * 20 - 10, this.target.y + Math.random() * 20 - 10);
         ctx.stroke();
       }
-
-      for(var i = 0; i < 30; i++) {
-        var r = 255;
-        var b = Math.floor(Math.random() * r);
-
+				
+      for(i = 0; i < 30; i++) {
+		  
         ctx.strokeStyle = "rgba(" + r + ", " + b + ", 15, " + this.alpha + ")";
 
         ctx.lineWidth = Math.random() * 5 + 1;
@@ -422,7 +422,7 @@ LaserCat.prototype.animate = function() {
         ctx.stroke();
       }
 
-      for(var i = 0; i < 8; i++){
+      for(i = 0; i < 8; i++){
         ctx.fillStyle = ctx.strokeStyle;
         ctx.beginPath();
         ctx.arc(this.target.x + Math.random() * 60 - 30, this.target.y + Math.random() * 60 - 30, Math.random() * 30 + 5, 0, 2 * Math.PI);
