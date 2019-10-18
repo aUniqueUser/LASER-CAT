@@ -11,3 +11,4 @@ Edit of [this firefox extension](https://addons.mozilla.org/en-US/firefox/addon/
 
 Planning to add
 - The ability for the cat to actually destroy elements on the webpage
+- earrape lol
