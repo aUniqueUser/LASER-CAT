@@ -5,6 +5,7 @@
 ![Mozilla Add-on](https://img.shields.io/amo/dw/the-laser-cat)
 ![Mozilla Add-on](https://img.shields.io/amo/users/the-laser-cat)
 
+![Chrome Web Store](https://img.shields.io/chrome-web-store/users/fjhpfpjdamhdpcbpmoocjfadgkbohfpm)
 #### IT'S A LASER CAT!
 
 Edit of [this firefox extension](https://addons.mozilla.org/en-US/firefox/addon/the-laser-cat/).
